@@ -1,0 +1,10 @@
+{
+    "ansible.fileCopyConfig": [
+        {
+            "server": "52.137.50.184",
+            "sourcePath": "d:\\Lab\\GIT\\mslearn-ansible/",
+            "targetPath": "NotShowThisAgain",
+            "copyOnSave": true
+        }
+    ]
+}
