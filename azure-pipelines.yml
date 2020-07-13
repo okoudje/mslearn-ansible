@@ -17,7 +17,7 @@ steps:
     connectionOverSsh: 'ssh-ansible-vm-service-connection'
     playbookSourceRemoteMachine: 'agentMachine'
     playbookRootRemoteMachine: '$(System.DefaultWorkingDirectory)'
-    playbookPathLinkedArtifactOnRemoteMachine: 'azure_rm.yml'
+    playbookPathLinkedArtifactOnRemoteMachine: 'users.yml'
     inventoriesRemoteMachine: 'file'
     inventoryFileSourceRemoteMachine: 'agentMachine'
     inventoryFileLinkedArtifactOnRemoteMachine: 'azure_rm.yml'
